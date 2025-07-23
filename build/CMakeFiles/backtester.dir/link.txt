@@ -1,0 +1,1 @@
+/usr/bin/clang++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/backtester.dir/core/strategy/built_in/sma_crossover.cpp.o CMakeFiles/backtester.dir/data/binance_loader.cpp.o CMakeFiles/backtester.dir/data/csv_parser.cpp.o CMakeFiles/backtester.dir/data/parquet_loader.cpp.o CMakeFiles/backtester.dir/main.cpp.o -o backtester

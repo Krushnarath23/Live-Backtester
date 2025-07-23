@@ -1,0 +1,207 @@
+{
+	"globsDependent" : 
+	[
+		{
+			"expression" : "/Users/kn/Downloads/live_backtester_cli_enabled/core/**/*.cpp",
+			"paths" : 
+			[
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/strategy/built_in/sma_crossover.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/kn/Downloads/live_backtester_cli_enabled/core/**/*.hpp",
+			"paths" : 
+			[
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/analytics/factor_attribution.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/analytics/performance_metrics.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/analytics/trade_analysis.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/engine/backtest_engine.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/engine/event_loop.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/engine/live_shadow_engine.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/engine/simulator_clock.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/execution/order.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/execution/order_manager.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/execution/portfolio.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/execution/slippage_model.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/market/historical_data_loader.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/market/live_data_stream.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/market/market_data_feed.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/market/tick_data.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/risk/drawdown_monitor.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/risk/position_sizer.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/risk/risk_limits.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/strategy/istrategy.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/strategy/strategy_factory.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/utils/latency_simulator.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/utils/logging.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/utils/thread_pool.hpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/core/utils/time_utils.hpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/kn/Downloads/live_backtester_cli_enabled/data/*.cpp",
+			"paths" : 
+			[
+				"/Users/kn/Downloads/live_backtester_cli_enabled/data/binance_loader.cpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/data/csv_parser.cpp",
+				"/Users/kn/Downloads/live_backtester_cli_enabled/data/parquet_loader.cpp"
+			],
+			"recurse" : true
+		},
+		{
+			"expression" : "/Users/kn/Downloads/live_backtester_cli_enabled/main.cpp",
+			"paths" : 
+			[
+				"/Users/kn/Downloads/live_backtester_cli_enabled/main.cpp"
+			],
+			"recurse" : true
+		}
+	],
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.3/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.3/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Darwin.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Apple-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Linker/AppleClang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/opt/homebrew/share/cmake/Modules/Platform/Linker/Apple-AppleClang.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/Users/kn/Downloads/live_backtester_cli_enabled/build",
+		"source" : "/Users/kn/Downloads/live_backtester_cli_enabled"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}
